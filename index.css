@@ -6,17 +6,20 @@ there are definitely some properties you should add!*/
       height: 100%;
     }
     body {
-       width: 800px;
+       width: 1000px;
        height: 100%;
+       margin: auto;
     }
 
     header {
-        background-color: ;
-        padding: 5px;
-        font-size: ;
+        padding: 20px;
+        font-size: 30px;
         display: block;
+        border: 5px solid #000000;
+
     }
-    nav {
+
+      nav {
         float: left;
     }
     nav ul {
@@ -26,19 +29,26 @@ there are definitely some properties you should add!*/
         list-style-type: none;
     }
     nav li {
-        float: left;
+        float: inherit;
     }
     nav li a {
         display: block;
         height: 25px;
         padding: 12px 18px 8px 18px;
-        vertical-align: middle;
+        vertical-align: top;
+        border: 1px solid #000000;
+
     }
     a {
         color: ;
     }
+
+    article {
+      display: block;
+      background-color: #b2ff97;
+    }
     section {
-        width: 73%;
+        width: 75%;
         display: inline-block;
         float: left;
     }
